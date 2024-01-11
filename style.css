@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #000000;
+}
+
+/* for all sections */
+section{
+    height: 500px;
+    width: 800px;
+    padding: 20px;
+    background-color: #f0ffff;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+/* for top section */
+.top-box{
+    height: 40%;
+    background-color: #FF9999;
+    border: 1px solid;
+}
+
+/* top section header */
+.top-box-header{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    padding: 20px 80px 10px 80px;
+}
+
+/* top section rest texts */
+.top-box-text{
+    padding: 10px 40px;
+    font-size: 1.3rem;
+}
+
+/* for bottom section */
+.bottom-box{
+    height: 60%;
+    display: flex;
+    border: 1px solid;
+}
+
+/* bottom section left side */
+.bottom-left-box{
+    width: 70%;
+    height: 100%;
+    background-color: #ffff00;
+    border: 1px solid;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+/* image size */
+.bottom-left-box img{
+    height: 100%;
+    width: 100%;
+}
+
+/* image of the bottom-left container */
+.image-container{
+    position: relative;
+}
+
+/* the text on the image of the bottom-left container */
+.text-container{
+    position: absolute;
+    color: #ffffff;
+    font-size: 1.7rem;
+    padding: 20px;
+    top: 25%;
+    left: 6%;
+    width: 80%;
+}
+
+/* bottom section right side */
+.bottom-right-box{
+    width: 30%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #ECECFB;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* logo/ avatar image of bottom-right container */
+.logo-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* adjusting the logo size */
+.fa-solid.fa-user-tie {
+    font-size: 8rem;
+}
+
+/* centered text at the bottom of the image */
+.centered-text{
+    text-align: center;
+}
+
+.centered-text h2{
+    padding: 5px;
+}
